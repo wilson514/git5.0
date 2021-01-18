@@ -1,1 +1,7 @@
-added one file
+a=poweroff
+if [ $a == "poweron" ]
+then
+   echo "light on"
+else
+   echo "no power avaliable"
+fi
